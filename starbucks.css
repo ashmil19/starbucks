@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.left-side{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+.left-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.left-btn p{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+
+.right-side{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn1 img{
+    width: 21px;
+    height: 21px;
+}
+
+
+.btn1{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    color: green;
+}
+
+
+
+.right-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.btn2{
+    font-size: 14px;
+    border: 1px  solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn3{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 7px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+#ash{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+#king{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
